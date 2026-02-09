@@ -1,0 +1,33 @@
+﻿FactSalesKey,SaleID,CustomerID,CustName,DateKey,Date_sold,ProductKey,Product,StoreKey,Store,Price,Discount,Region,Quantity
+1,1,1,Alice Smith,20240201,2/1/24,1,Ultrasoft Towel,1,Central Market,12,10,North,3
+11,11,1,Alice Smith,20240205,2/5/24,1,Ultrasoft Towel,1,Central Market,12,5,North,2
+2,2,2,John Patel,20240201,2/1/24,2,Freshbrew Coffee,1,Central Market,6,0,North,5
+12,12,2,John Patel,20240205,2/5/24,2,Freshbrew Coffee,1,Central Market,6,0,North,3
+3,3,3,Maria L,20240102,1/2/24,3,Smartwatch X,2,Urban Retail,120,5,South,1
+13,13,3,Maria L,20240205,2/5/24,3,Smartwatch X,2,Urban Retail,120,5,South,1
+4,4,4,David Chen,20240201,2/1/24,4,Noisecancel Headphones,2,Urban Retail,150,15,South,2
+5,5,5,Sarah Khan,20240203,2/3/24,5,Organic Pasta,3,Valuemart,4,0,West,4
+6,6,6,Tom Reeves,20240203,2/3/24,6,Running Shoes,3,Valuemart,75,10,West,1
+7,7,7,Emily Carter,20240203,2/3/24,7,Winter Jacket,4,Quickshop,95,20,East,1
+8,8,8,James O’Neil,20240204,2/4/24,8,Wireless Mouse,4,Quickshop,18,0,East,2
+14,14,4,David Chen,20240206,2/6/24,4,Noisecancel Headphones,2,Urban Retail,150,10,South,1
+16,16,6,Tom Reeves,20240206,2/6/24,6,Running Shoes,3,Valuemart,75,10,West,1
+17,17,7,Emily Carter,20240206,2/6/24,7,Winter Jacket,4,Quickshop,95,20,East,1
+18,18,8,James O’Neil,20240207,2/7/24,8,Wireless Mouse,4,Quickshop,18,0,East,2
+22,22,2,John Patel,20240208,2/8/24,2,Freshbrew Coffee,1,Central Market,6,0,North,4
+24,24,4,David Chen,20240208,2/8/24,4,Noisecancel Headphones,2,Urban Retail,150,15,South,1
+25,25,5,Sarah Khan,20240208,2/8/24,5,Organic Pasta,3,Valuemart,4,0,West,2
+28,28,8,James O’Neil,20240209,2/9/24,8,Wireless Mouse,4,Quickshop,18,0,East,2
+31,31,1,Alice Smith,20240210,2/10/24,1,Ultrasoft Towel,1,Central Market,12,5,North,1
+32,32,2,John Patel,20240210,2/10/24,2,Freshbrew Coffee,1,Central Market,6,0,North,2
+34,34,4,David Chen,20240210,2/10/24,4,Noisecancel Headphones,2,Urban Retail,150,10,South,1
+35,35,5,Sarah Khan,20240210,2/10/24,5,Organic Pasta,3,Valuemart,4,0,West,3
+37,37,7,Emily Carter,20240211,2/11/24,7,Winter Jacket,4,Quickshop,95,20,East,1
+38,38,8,James O’Neil,20240211,2/11/24,8,Wireless Mouse,4,Quickshop,18,0,East,2
+41,41,1,Alice Smith,20240212,2/12/24,1,Ultrasoft Towel,1,Central Market,12,10,North,2
+42,42,2,John Patel,20240212,2/12/24,2,Freshbrew Coffee,1,Central Market,6,0,North,3
+43,43,3,Maria L,20240212,2/12/24,3,Smartwatch X,2,Urban Retail,120,5,South,1
+44,44,4,David Chen,20240212,2/12/24,4,Noisecancel Headphones,2,Urban Retail,150,10,South,1
+45,45,5,Sarah Khan,20240212,2/12/24,5,Organic Pasta,3,Valuemart,4,0,West,2
+47,47,7,Emily Carter,20240213,2/13/24,7,Winter Jacket,4,Quickshop,95,20,East,1
+48,48,8,James O’Neil,20240213,2/13/24,8,Wireless Mouse,4,Quickshop,18,0,East,2
