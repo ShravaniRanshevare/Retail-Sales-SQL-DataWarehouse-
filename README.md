@@ -10,55 +10,36 @@ This project simulates a retail company’s sales environment and showcases how 
 
 This project models a retail sales environment using a star schema, consisting of:
 
-1 Fact Table — fact_sales
-
-4 Dimension Tables — dim_customer, dim_product, dim_store, dim_date
+   1 Fact Table — fact_sales
+   4 Dimension Tables — dim_customer, dim_product, dim_store, dim_date
 
 It includes:
 
-Cleaned and validated CSV datasets
-
-Full SQL schema creation
-
-Insert scripts for all tables
-
-Analytical SQL queries
-
-Window‑function queries
-
-CTE‑based advanced analytics
-
-Missing‑data detection
-
-Customer segmentation
-
-Recursive date generation
-
-Python ETL pipeline
+  Cleaned and validated CSV datasets
+  Full SQL schema creation
+  Insert scripts for all tables
+  Analytical SQL queries
+  Window‑function queries
+  CTE‑based advanced analytics
+  Missing‑data detection
+  Customer segmentation
+  Recursive date generation
+  Python ETL pipeline
 
 ***This project demonstrates skills in:***
 
 Data modelling
-
 SQL joins
-
 Window functions
-
 CTEs
-
 Data cleaning
-
 Analytical thinking
-
 Debugging
-
 Documentation and workflow organisation
-
 Python scripting for ETL
-
 Perfect for showcasing data engineering + analytics fundamentals.
 
-<br><br>
+
 **🏗️ Star Schema Architecture**
 
 Code
@@ -66,19 +47,19 @@ Code
                     dim_customer
                          |
                          |
-dim_product ---- fact_sales ---- dim_store
+dim_product --- --- fact_sales --- --- dim_store
                          |
                          |
                      dim_date
                      
 Fact Table:  
 
-Contains measurable business events (sales).
+  Contains measurable business events (sales).
 
 Dimension Tables:  
 
-Contain descriptive attributes used for filtering, grouping, and analysis.
-<br><br>
+  Contain descriptive attributes used for filtering, grouping, and analysis.
+
 
 ***📂 Repository Structure***
 
@@ -116,24 +97,19 @@ README.md
 **🗄️ Data Model Summary**
 
 fact_sales
-
-Contains all sales transactions with foreign keys to each dimension.
+  Contains all sales transactions with foreign keys to each dimension.
 
 dim_customer
-
-Customer details including loyalty tier.
+ Customer details including loyalty tier.
 
 dim_product
-
-Product attributes including category and price.
+ Product attributes including category and price.
 
 dim_store
-
-Store information including region.
+ Store information including region.
 
 dim_date
-
-Calendar table with date attributes (day, month, quarter, weekday).
+ Calendar table with date attributes (day, month, quarter, weekday).
 
 
 **🔄 Python ETL Pipeline**
@@ -235,17 +211,11 @@ Produces a clean version of fact_sales
 **🧾 Technologies Used**
 
 SQL (Oracle)
-
 Star Schema Modelling
-
 Data Cleaning
-
 Analytical Querying
-
 Window Functions
-
 CTEs
-
 Python ETL
 
 ///THE END///
