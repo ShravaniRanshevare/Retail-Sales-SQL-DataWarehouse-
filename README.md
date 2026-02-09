@@ -2,9 +2,15 @@
 End-to-end SQL data warehouse project with star schema, ETL pipeline, advanced CTE queries, and analytics.
 
 **📌 Retail Sales Data Warehouse — SQL Star Schema Project**
+
 A complete end‑to‑end SQL project demonstrating data modelling, ETL logic, star schema design, analytical querying, window functions, CTEs, data‑quality checks, and Python‑based ETL automation.
+
 This project simulates a retail company’s sales environment and transforms raw transactional data into a clean, query‑ready analytical data warehouse.
+
+
 **🧠 Project Overview**
+
+
 This project models a retail sales environment using a star schema:
 
 1 Fact Table — fact_sales
@@ -36,11 +42,18 @@ This project demonstrates skills in SQL, data modelling, ETL, analytics, and doc
 
 
 **🏗️ Star Schema Architecture**
+
+
 Code
+
+
                     dim_customer
+                    
                          |
                          |
-dim_product  ---- fact_sales ----  dim_store
+                         
+dim_product  ----  fact_sales  ----  dim_store
+                         
                          |
                          |
                          
@@ -52,6 +65,7 @@ dim_product  ---- fact_sales ----  dim_store
 Code
 
 /data
+
     fact_sales.csv
     dim_customer.csv
     dim_product.csv
@@ -129,43 +143,43 @@ Run the full ETL:
 
 **📊 Analysis Queries Included:**
 
-  Revenue analysis
-  Product performance
-  Store performance
-  Customer segmentation
-  Regional insights
-  Time‑series trends
-  Discount analysis
-  Category breakdowns
+  Revenue analysis,
+  Product performance,
+  Store performance,
+  Customer segmentation,
+  Regional insights,
+  Time‑series trends,
+  Discount analysis,
+  Category breakdowns.
 
 **🔍 Window Function Queries Included:**
 
-  Running total revenue
-  Ranking products by revenue
-  Ranking stores by performance
-  Customer AOV vs global AOV
-  Region contribution %
-  Day‑over‑day revenue change
-  Top product per store
-  Category contribution %
+  Running total revenue,
+  Ranking products by revenue,
+  Ranking stores by performance,
+  Customer AOV vs global AOV,
+  Region contribution %,
+  Day‑over‑day revenue change,
+  Top product per store,
+  Category contribution %.
   
 **🧩 Advanced CTE Queries Included :**
 
-  Missing Data Detection
-  Dates with no sales
-  Products never sold
-  Stores with zero transactions
-  Customer Segmentation
-  High‑value customers
-  Medium‑value customers
-  Low‑value customers
-  Recursive Date Series Generator
-  Generates a continuous date range
-  Used to detect missing dates
-  Data‑Cleaning CTE
-  Trims whitespace
-  Normalises casing
-  Handles nulls
+  Missing Data Detection,
+  Dates with no sales,
+  Products never sold,
+  Stores with zero transactions,
+  Customer Segmentation,
+  High‑value customers,
+  Medium‑value customers,
+  Low‑value customers,
+  Recursive Date Series Generator,
+  Generates a continuous date range,
+  Used to detect missing dates,
+  Data‑Cleaning CTE,
+  Trims whitespace,
+  Normalises casing,
+  Handles nulls.
   
 **📈 Example Insights**
 
